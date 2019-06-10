@@ -1,11 +1,11 @@
 Summary:	Load the NVIDIA kernel module and create NVIDIA character device files
 Name:		nvidia-modprobe
-Version:	430.14
+Version:	430.26
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	https://download.nvidia.com/XFree86/nvidia-modprobe/%{name}-%{version}.tar.bz2
-# Source0-md5:	153de667b62f463f8793c76c2b57f649
+# Source0-md5:	634295ccc0e6a2feb6a126cf2e3452ba
 URL:		https://download.nvidia.com/XFree86/nvidia-modprobe/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
