@@ -1,12 +1,12 @@
 Summary:	Load the NVIDIA kernel module and create NVIDIA character device files
 Summary(pl.UTF-8):	Ładowanie modułu jądra NVIDIA i tworzenie plików urządzeń znakowych NVIDIA
 Name:		nvidia-modprobe
-Version:	550.100
+Version:	570.133.07
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	https://download.nvidia.com/XFree86/nvidia-modprobe/%{name}-%{version}.tar.bz2
-# Source0-md5:	0ddabe0158739a77e964f2c86f9be8cc
+# Source0-md5:	f0324056d943150717adf2f6e9001124
 URL:		https://download.nvidia.com/XFree86/nvidia-modprobe/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
